@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-nav">
+            <p class="icon">Network</p>
+        </div>
+        <p class="your-feed">Your Feed</p>
+        <div class="content">           
+            <div class="avatar">
+                <img class="profile-img" src="user-circle.png" alt="Profile-img">
+                <a href="#">Add an avatar</a>
+                <p>James Doe</p>
+            </div>
+            <div class="right-boxes">
+                <div class="name-box">
+                    <div class="top-elements">
+                        <h2>Some User</h2>
+                        <div class="likes-div">
+                            <p id="number-likes1">0</p>
+                            <p>like(s)</p>
+                        </div>
+                        <button class="button" onclick="likeBtn('number-likes1')">Like</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur</p>
+                </div>
+                <div class="name-box">
+                    <div class="top-elements">
+                        <h2>Some User</h2>
+                        <div class="likes-div">
+                            <p id="number-likes2">0</p>
+                            <p>like(s)</p>
+                        </div>
+                        <button class="button" onclick="likeBtn('number-likes2')">Like</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur</p>
+                </div>
+                <div class="name-box">
+                    <div class="top-elements">
+                        <h2>Some User</h2>
+                        <div class="likes-div">
+                            <p id="number-likes3">0</p>
+                            <p>like(s)</p>
+                        </div>
+                        <button class="button" onclick="likeBtn('number-likes3')">Like</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
